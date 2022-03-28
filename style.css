@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(233, 219, 219);
+  line-height: 1.5;
+}
+
+.section {
+  background: rgb(110, 147, 179);
+  padding: 5rem 0;
+}
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+
+  /* belli bir aralığıa kadar ekranın %90 daha sonra ise  1170 px */
+}
+
+.section-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.title-underline {
+  background: cornflowerblue;
+  width: 5rem;
+  height: 0.25rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+p {
+  text-align: center;
+  margin: 2px;
+}
